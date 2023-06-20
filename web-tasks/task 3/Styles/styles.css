@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* top line */
+  
+  .black-line{
+    background-color: black;
+    height: 60px;
+  }
+
+  .search-box {
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .search-box input[type="search"] {
+    padding: 8px 16px;
+    border: 2px solid #bb5a3a;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    width: 400px;
+    height: 40px;
+    outline: none;
+  }
+
+  .search-box input[type="search"]::placeholder {
+    color: white;
+    opacity: 0.7;
+  }
+
+  .search-box button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #bb5a3a;
+    border: none;
+    color: #ffffff;
+    padding: 13px;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+
+  /* navbar style starting here */
+
+  .navbar {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  .navbar-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .navbar-options {
+    display: flex;
+    justify-content: center;
+    margin-right: 45px;
+    flex-grow: 1;
+  }
+  
+  .navbar-option a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+
+  .navbar-option:hover {
+    transform: scale(1.2);
+  }
+
+  /* social media icons */
+
+  .fa {
+    font-size: 20px;
+    width: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: right;
+
+  }
+  
+  .fa:hover {
+    transform: scale(1.2);
+  }
+
+  .icons1 {
+    margin-left: 1155px;
+    padding-right: 20px;
+    position: absolute;
+    top: 10px;
+  }
+
+  /* images style starting here */
+
+  #table-img {
+    margin-left: 2px;
+  }
+  
+  .top-images .image-text {
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  /* bottom images style starting here */
+
+  .bottom-images-container {
+    margin: 150px 150px;
+    display: flex;
+    align-items: center;
+  }
+
+  .bottom-images-container img {
+    margin-right: 10px;
+  }
+
+  #img1 {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    margin-bottom: 100px;
+  }
+
+  .text-container1 {
+    margin-bottom: 220px;
+    margin-left: 120px;
+  }
+
+  #img22 {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    margin-bottom: 130px;
+  }
+
+  .text-container2 {
+    margin-left: 120px;
+    position: absolute;
+    top: 1033px;
+  }
+
+  
+  #img33 {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    margin-top: 250px;
+  }
+
+  .text-container3 {
+    margin-left: 120px;
+    position: absolute;
+    margin-top: 135px;
+  }
+  
+  /* all pages button style starting here */
+
+  .allpages-btn {
+    margin-top: 320px;
+    margin-left: 50px;
+  }
+
+  #all-pages-button {
+    background-color: #bb5a3a;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+  }
+
+  #all-pages-button:hover {
+    background-color: black;
+  }
+
+  /* left email section */
+
+  /* left email section background */
+
+  .email-section-bg {
+    margin-left: 700px;
+    display: flex;
+    position:  absolute;
+    top: 700px;
+    background-color: #ffdfd9;
+    width: 600px;
+    height: 1100px;
+    color: #ffdfd9;
+    z-index: 2;
+  }
+
+  /* email input section */
+
+  .email-input-section {
+    background-color: #bb5a3a;
+    z-index: 1;
+    width: 360px;
+    height: 410px;
+    color: #bb5a3a;
+    margin-left: 125px;
+    margin-top: 50px;
+  }
+
+  #email-text1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  #email123 {
+    color: white;
+    position: inherit;
+    margin-left: 75px;
+    
+  }
+
+  #email-input1 {
+    margin-left: 75px;
+    width: 210px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 3px;
+  }
+
+  /* subscribe button style */ 
+
+  #sub {
+    border: none;
+    background-color: white;
+    color: #bb5a3a;
+    margin-left: 92px;
+    cursor: pointer;
+    width: 180px;
+    height: 45px;
+  }
+
+  #sub:hover {
+    background-color: black;
+    color: white;
+  }
+
+  /* collage img */
+
+  #collage1 {
+    margin-top: 600px;
+    position: absolute;
+    right: 120px;
+    width: 360px;
+    height: 327px;
+  }
+
+  #collage-text {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 500px;
+    right: 175px;
+  }
+
+  .icons2 {
+    position: absolute;
+    top: 950px;
+    right: 220px;
+    font-size: 30px;
+  }
+
+  .icons2 i {
+    color: black;
+  }
+
+  /* bottom registration section styles starting here */
+
+  .very-bottom-section {
+    background-color: #ffdfd9;
+    margin-top: 100px;
+    height: 500px;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 4px;
+  }
+
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 4px;
+  }
+
+  .submit-button {
+    background-color: #bb5a3a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  /* საიტის შექმნის თარიღი */
+
+  .date {
+    width: 100%;
+    height: 22px;
+    background-color: #bb5a3a;
+  }
+
+  #date {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+  }
+  
