@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+.title {
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    font-size: 50px;
+    background: linear-gradient(90deg, #E6F5F5, #E8007C, #5AAAF5, #F500C2, #3809B3);
+    background-size: 400%;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: title 10s linear infinite;
+    transition: 1s;
+    cursor: pointer;
+}
+
+@keyframes title {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.title:hover {
+    transform: scale(1.3);
+}
